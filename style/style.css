@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    front font-family: Roboto;
 }
 
 ul>li{
@@ -11,9 +12,53 @@ ul{
 }
 nav{
     display: flex;
-   
+    align-items: center;
     background-color: #fff9ea;
+    justify-content: space-around;
 }
 button{
     height: 30px;
+}
+.listone{
+    font-size: 20px;
+    font-weight: 700;
+  
+}
+.buttonone{
+    width: 122px;
+    height: 38px;
+    background-color: #ffcb45;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+
+
+/* hero style after header */
+
+.hero-container{
+    background-image: url(../image/shapes.png);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.hero-contain{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hero-conta{
+    display: flex;
+    align-items: center;
+}
+
+.hero_heading{
+   font-size: 60px; 
+   margin-bottom: 21px;
+}
+.greenwaveone{
+    align-items: center;
 }
